@@ -35,16 +35,7 @@ color: white !important;
 
 }
 
-#sideBar {
-	width:50%;
-	float:right;
-	background:steelblue;
-	height:100vh;
-	color:white;
-	font-family:'georgia';
-	padding:20px;
-	box-sizing:border-box;
-}
+
 .header {
 	width:100vw;
 	text-align:center;
@@ -53,16 +44,7 @@ color: white !important;
 
 
 
-#menu {
-	font-size:30px;
-	position:absolute;
-	right:25px;
-	margin-top:14px;
 
-}
-#menu:hover {
-	text-decoration:underline;
-}
 
 h1 {
 	font-size:42px;
@@ -88,7 +70,7 @@ a {
 	color:white;
 	z-index:9;
 	position:absolute;
-	top:500px;
+	top:400px;
 
 	text-align:center;
 	text-decoration:none;
