@@ -66,9 +66,12 @@ $('.coloradosprings').on('click', function(){
 });
 
 //create markers for parks 
-
+var photo = "img src=img/roanoke.jpg";
 var seattlemarker = L.marker([47.6097, -122.3331,], {icon: loveIcon}).addTo(map);
 seattlemarker.bindPopup("<h3>Seattle </h3><br>October 2010-December 2011").openPopup();
+seattlemarker.bindPopup (photo);
+
+
 
 var atlantamarker = L.marker([33.7550, -84.3900,], {icon: loveIcon}).addTo(map);
 atlantamarker.bindPopup("<h3>Atlanta</h3> <br>June 2008-October 2010").openPopup();
